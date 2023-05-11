@@ -82,3 +82,14 @@ Les résultats obtenus sont satisfaisants. Cependant, des difficultés ont été
 Avancement dans la fonction recherche de personnes. Le champ se rempli tout seul lorsque l'utilisateur fait des recherches dans le champ et qu'il ne reste qu'un seul résultat parmi les suggestions. Le composant déclenche automatiquement une fonction qui sera utilisée pour afficher l'utilisateur en question. Beaucoup de difficultés ont été rencontrées durant cette phase d'implémentations.
 __Catégorie__ : Recherche de personnes
 __Durée__ : 7h30
+
+## 10.05.2023
+
+### Détails personne
+Désign et implémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cette phase s'est conclue avec des résultats plutôt satisfaisants et qui respectant à la lettre la charte graphique de l'EPFL. 
+__Catégorie__ : Détails personne
+__Durée__ : 7h30
+
+Bilan journée
+Il reste encore quelques détails à paufiner mais le gros du travail a été fait. Le code doit encore être refactoré un peu avant d'être commité.
+
