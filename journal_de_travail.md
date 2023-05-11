@@ -90,6 +90,23 @@ Désign et implémentation de la page "détails personne". De nombreuses difficu
 __Catégorie__ : Détails personne
 __Durée__ : 7h30
 
-Bilan journée
+__Bilan journée__
 Il reste encore quelques détails à paufiner mais le gros du travail a été fait. Le code doit encore être refactoré un peu avant d'être commité.
+
+## 11.05.2023
+
+### Détails personne
+Désign et implémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cependans, cette phase s'est conclue avec des résultats satisfaisants et qui respectent à la lettre la charte graphique de l'EPFL. 
+__Catégorie__ : Détails personne
+__Durée__ : 6h00
+
+### Modèle
+Un moment a été pris pour analyser la situation et planifier les actions devant être entreprises pour mener à bien l'intégration de la fonctionnalité au sein de l'API. Au vu de la méthodologie de gestion de projet choisie, cela correspond aux phases d'analyse et conception. 
+Pour ce faire, une reconsidération approfondie des éléments constituants du cahier des charges a été faite.
+__Catégorie__ : Détails personne
+__Durée__ : 1h30
+
+
+__Bilan journée__
+Le projet a pris un peu de retard par rapport au planning. Pour l'instant cela reste raisonnable mais s'il n'est pas rattrapé durant la journée de TPI suivante, il va impérativement falloir faire des heures supplémentaires afin d'éviter toute surcharge de travail vers la fin du TPI.
 
