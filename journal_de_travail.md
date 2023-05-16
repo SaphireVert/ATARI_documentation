@@ -85,18 +85,30 @@ __Durée__ : 7h30
 
 ## 10.05.2023
 
+### Recherche de personnes
+Le système d'autocomplétion a été terminé. La recherche peut être effectuée sur plusieurs champs (sciper, nom, prénom, etc...).
+Une autre fonctionnalité a été implémentée, et qui permet de détecter lorsque l'utilisateur clique sur un résultat suggéré lors de la recherche, pour ensuite executer le console.log avec les infos de la personne sélectionnée.
+__Catégorie__ : Recherche de personne
+__Durée__ : 4h00
+
 ### Détails personne
-Désign et implémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cette phase s'est conclue avec des résultats plutôt satisfaisants et qui respectant à la lettre la charte graphique de l'EPFL. 
+Création du design de la page "détails personne" en partant de zéro et en utilisant la technique du "nested layout". Le résultat n'a pas été au rendez-vous car inesthétique...
 __Catégorie__ : Détails personne
-__Durée__ : 7h30
+__Durée__ : 3h00
+
+### Séance avec le chef de projet
+Une séance a été faite avec le chef de projet pour faire le point sur l'état d'avancement du projet ainsi que d'autres éléments. (c.f. procès verbal 10.04.2023)
+__Catégorie__ : Séances
+__Durée__ : 30min
 
 __Bilan journée__
-Il reste encore quelques détails à paufiner mais le gros du travail a été fait. Le code doit encore être refactoré un peu avant d'être commité.
+Du côté de la fonctionnalité de recherche, il reste encore quelques détails à paufiner mais le gros du travail a été fait. Le code doit encore être refactoré un peu avant d'être commité.
+Quant à la page détails personne, les résultats n'ont pas été à la hauteur.
 
 ## 11.05.2023
 
 ### Détails personne
-Désign et implémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cependans, cette phase s'est conclue avec des résultats satisfaisants et qui respectent à la lettre la charte graphique de l'EPFL. 
+Réimplémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cependans, cette phase s'est conclue avec des résultats satisfaisants et qui, de plus, respectent parfaîtement la lettre la charte graphique de l'EPFL. 
 __Catégorie__ : Détails personne
 __Durée__ : 6h00
 
@@ -110,3 +122,21 @@ __Durée__ : 1h30
 __Bilan journée__
 Le projet a pris un peu de retard par rapport au planning. Pour l'instant cela reste raisonnable mais s'il n'est pas rattrapé durant la journée de TPI suivante, il va impérativement falloir faire des heures supplémentaires afin d'éviter toute surcharge de travail vers la fin du TPI.
 
+## 16.05.2023
+
+Le active directory a besoin d'une connexion ldap, on le laisse de côté pour l'instant et on rajoutera à la fin du tpi s'il reste du temps
+
+Il m'a fallu faire beaucoup de recherches dans la DB pour me rendre compte que les infos n'y étaient pas. En fait je dois faire une sorte d' "enum" moi même pour avoir la liste des fonctions correspondantes car il n'y a aucune table correspondante dans la base de données. J'ai pu trouver l'info dans [ce fichier](https://gitlab.epfl.ch/service-desk/idp-exop/-/blob/master/cadi/getfunction.py) (le lien est protégé par des droits d'accès)
+	['%316897%']
+Une connexion a été établie pour la db en utilisant un tunnel ssh pour passer par le serveur "bastion". C'est lors d'une séance avec un de mes formateurs que j'ai appris ça.
+Du coup j'arrive à récupérer les données nécessaires. J'ai préparé les requêtes sql dont je vais avoir besoin. Il me reste juste à les faire fonctionner correctement dans le back end et acheminer les information aux ayant droit et le tout sera joué !
+
+Le travail a été refactorisé aussi au niveau des menus dépliants des unités. Ils sont chacun des composants maintenant !
+
+__Catégorie__ : Détails personne
+__Durée__ : 10h30
+
+Heures supplémentaire journée : 3h
+
+__Bilan journée__
+Des heures supplémentaires ont été prises pour rattraper le retard accumulé, mais il reste encore du travail à faire, des heures supplémentaires devront être prises le jour suivant également.
