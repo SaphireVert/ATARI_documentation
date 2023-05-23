@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-05-17T10:08:33.311Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="VnqMZd56KN5AFysk0uhm" version="21.3.2" type="browser">
+  <diagram name="Page-1" id="FdmNsnXJbchyTzYtT9Vs">
+    <mxGraphModel dx="1434" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="02KC3j9NsUknduoqBNwi-1" value="&amp;nbsp; ke" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#6C767D;fontColor=#ffffff;whiteSpace=wrap;align=left;verticalAlign=middle;fontStyle=0;fontSize=14;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="70" y="180" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="02KC3j9NsUknduoqBNwi-2" value="" style="shape=triangle;direction=south;fillColor=#ffffff;strokeColor=none;perimeter=none;" parent="02KC3j9NsUknduoqBNwi-1" vertex="1">
+          <mxGeometry x="1" y="0.5" width="10" height="5" relative="1" as="geometry">
+            <mxPoint x="-17" y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02KC3j9NsUknduoqBNwi-3" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#ffffff;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="70" y="223" width="640" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="02KC3j9NsUknduoqBNwi-4" value="Kermit Lagrenouille 123456 kermit.lagrenouille@epfl.ch lagrenouille +41 12 111 22 33" style="fillColor=none;strokeColor=#FFFFFF;align=left;spacing=20;fontSize=14;fontColor=#000000;" parent="02KC3j9NsUknduoqBNwi-3" vertex="1">
+          <mxGeometry width="640" height="30" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02KC3j9NsUknduoqBNwi-5" value="Kevin Dupont 654321 kevin.dupont@epfl.ch dupont +41 12 111 22 44" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;fontColor=#000000;" parent="02KC3j9NsUknduoqBNwi-3" vertex="1">
+          <mxGeometry width="640" height="30" relative="1" as="geometry">
+            <mxPoint y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02KC3j9NsUknduoqBNwi-6" value="Kelly Montana 112245 kelly.montana@epfl.ch montana +41 12 111 22 44" style="fillColor=none;strokeColor=none;align=left;spacing=20;fontSize=14;fontColor=#000000;" parent="02KC3j9NsUknduoqBNwi-3" vertex="1">
+          <mxGeometry width="640" height="30" relative="1" as="geometry">
+            <mxPoint y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

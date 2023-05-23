@@ -140,3 +140,14 @@ Heures supplémentaire journée : 3h
 
 __Bilan journée__
 Des heures supplémentaires ont été prises pour rattraper le retard accumulé, mais il reste encore du travail à faire, des heures supplémentaires devront être prises le jour suivant également.
+
+## 17.05.2023
+
+Les requêtes SQL ont été integrées avec succès dans le code. Le code a également été refactoré afin de simplifier son entretient sur le long terme
+__Catégorie__ : API
+__Durée__ : 7h00
+
+
+__Bilan journée__
+C'était un peu le rush aujourd'hui car je suis sur la dernière ligne droite.
+
