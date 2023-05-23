@@ -151,3 +151,13 @@ __Durée__ : 7h00
 __Bilan journée__
 C'était un peu le rush aujourd'hui car je suis sur la dernière ligne droite.
 
+
+## 18.05.2023
+
+Le front-end a été amélioré. Le projet a été connecté à la DB de test de l'EPFL, les utilisateurs sont affichés correctement. On peu donc effectuer une recherche sur les personnes présentes dans la base de données de test.  Le projet devrait à priori fonctionner sur la base de données de prod également à priori.
+
+__Catégorie__ : API
+__Durée__ : 8h00
+
+__Bilan journée__
+La journée a été intense, mais l'étendue du travail effectué est satisfaisante
