@@ -152,12 +152,24 @@ __Bilan journée__
 C'était un peu le rush aujourd'hui car je suis sur la dernière ligne droite.
 
 
-## 18.05.2023
+## 23.05.2023
 
-Le front-end a été amélioré. Le projet a été connecté à la DB de test de l'EPFL, les utilisateurs sont affichés correctement. On peu donc effectuer une recherche sur les personnes présentes dans la base de données de test.  Le projet devrait à priori fonctionner sur la base de données de prod également à priori.
+Le front-end a été amélioré. Le projet a été connecté à la DB de test de l'EPFL, les utilisateurs sont affichés correctement. On peu donc effectuer une recherche sur les personnes présentes dans la base de données de test.  Le projet devrait à priori fonctionner sur la base de données de prod également à priori. Les performances de l'application ont également été optimisées en limitant le nombre de requêtes DDP, autrement dit en envoyant un gros tableau d'un coup au frontend (plus de détails viendront dans le rapport).
 
 __Catégorie__ : API
 __Durée__ : 8h00
 
 __Bilan journée__
 La journée a été intense, mais l'étendue du travail effectué est satisfaisante
+
+## 24.05.2023
+
+Avancement documentation : avancement de la partie "conception" et création de schémas d'illustration
+__Catégorie__ : Documentation
+__Durée__ : 7h30
+
+## 25.05.2023
+
+Avancement documentation : Création définition glossaire + avancement dans la partie "réalisation"
+__Catégorie__ : Documentation
+__Durée__ : 7h30
