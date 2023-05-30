@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-05-30T18:01:05.135Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="mQ04wac0hZJfKFdv5hfB" version="21.2.8" type="device">
+  <diagram name="Page-1" id="qi3WBvxj1feacmrWo1cH">
+    <mxGraphModel dx="437" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9a7CvDR1nW1__JU-RupC-2" value="Menus déroulants unités" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="300" width="205" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-3" value="Unité 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="22.5" y="50" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-13" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="167.5" y="57.5" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="22.5" y="70" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-22" value="adresse 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="5" y="75" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-23" value="téléphone(s)&lt;br&gt;&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bureau&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;hierarchie unité" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="115" y="85" width="57.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-24" value="adresse 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="5" y="90" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-25" value="adresse 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="5" y="105" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-26" value="adresse 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="9a7CvDR1nW1__JU-RupC-2">
+          <mxGeometry x="5" y="120" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-4" value="Unité 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="460" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-5" value="Unité 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="490" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-16" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="467.5" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="9a7CvDR1nW1__JU-RupC-17" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="497.5" width="5" height="5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

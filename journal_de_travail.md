@@ -30,8 +30,6 @@ La difficulté aujourd'hui était d'avoir une vision à la fois globale, détail
 
 __Total heures supplémentaires__ : 2h
 
-
-
 ## 03.05.2023
 
 ## Initialisation du dépot
@@ -108,7 +106,7 @@ Quant à la page détails personne, les résultats n'ont pas été à la hauteur
 ## 11.05.2023
 
 ### Détails personne
-Réimplémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cependans, cette phase s'est conclue avec des résultats satisfaisants et qui, de plus, respectent parfaîtement la lettre la charte graphique de l'EPFL. 
+Réimplémentation de la page "détails personne". De nombreuses difficultés ont été rencontrées lors du choix de la disposition des informations et lorsqu'il s'agissait de centrer correctement des div ou des éléments sur la page. Cependant, cette phase s'est conclue avec des résultats satisfaisants et qui, de plus, respectent parfaîtement la lettre la charte graphique de l'EPFL. 
 __Catégorie__ : Détails personne
 __Durée__ : 6h00
 
@@ -118,16 +116,16 @@ Pour ce faire, une reconsidération approfondie des éléments constituants du c
 __Catégorie__ : Détails personne
 __Durée__ : 1h30
 
-
 __Bilan journée__
 Le projet a pris un peu de retard par rapport au planning. Pour l'instant cela reste raisonnable mais s'il n'est pas rattrapé durant la journée de TPI suivante, il va impérativement falloir faire des heures supplémentaires afin d'éviter toute surcharge de travail vers la fin du TPI.
 
 ## 16.05.2023
 
+### Détails personnes
 Le active directory a besoin d'une connexion ldap, on le laisse de côté pour l'instant et on rajoutera à la fin du tpi s'il reste du temps
 
 Il m'a fallu faire beaucoup de recherches dans la DB pour me rendre compte que les infos n'y étaient pas. En fait je dois faire une sorte d' "enum" moi même pour avoir la liste des fonctions correspondantes car il n'y a aucune table correspondante dans la base de données. J'ai pu trouver l'info dans [ce fichier](https://gitlab.epfl.ch/service-desk/idp-exop/-/blob/master/cadi/getfunction.py) (le lien est protégé par des droits d'accès)
-	['%316897%']
+
 Une connexion a été établie pour la db en utilisant un tunnel ssh pour passer par le serveur "bastion". C'est lors d'une séance avec un de mes formateurs que j'ai appris ça.
 Du coup j'arrive à récupérer les données nécessaires. J'ai préparé les requêtes sql dont je vais avoir besoin. Il me reste juste à les faire fonctionner correctement dans le back end et acheminer les information aux ayant droit et le tout sera joué !
 
@@ -143,6 +141,7 @@ Des heures supplémentaires ont été prises pour rattraper le retard accumulé,
 
 ## 17.05.2023
 
+### API
 Les requêtes SQL ont été integrées avec succès dans le code. Le code a également été refactoré afin de simplifier son entretient sur le long terme
 __Catégorie__ : API
 __Durée__ : 7h00
@@ -154,6 +153,7 @@ C'était un peu le rush aujourd'hui car je suis sur la dernière ligne droite.
 
 ## 23.05.2023
 
+### API
 Le front-end a été amélioré. Le projet a été connecté à la DB de test de l'EPFL, les utilisateurs sont affichés correctement. On peu donc effectuer une recherche sur les personnes présentes dans la base de données de test.  Le projet devrait à priori fonctionner sur la base de données de prod également à priori. Les performances de l'application ont également été optimisées en limitant le nombre de requêtes DDP, autrement dit en envoyant un gros tableau d'un coup au frontend (plus de détails viendront dans le rapport).
 
 __Catégorie__ : API
@@ -164,12 +164,30 @@ La journée a été intense, mais l'étendue du travail effectué est satisfaisa
 
 ## 24.05.2023
 
-Avancement documentation : avancement de la partie "conception" et création de schémas d'illustration
+### Documentation
+Avancement de la partie "conception" et création de schémas d'illustration
 __Catégorie__ : Documentation
 __Durée__ : 7h30
+
+**Bilan journée**
+Avancement normal de la documentation
 
 ## 25.05.2023
 
-Avancement documentation : Création définition glossaire + avancement dans la partie "réalisation"
+### Documentation
+Création définition glossaire + avancement dans la partie "réalisation"
 __Catégorie__ : Documentation
 __Durée__ : 7h30
+
+**Bilan journée**
+Avancement un peu lent de la documentation aujourd’hui, il va falloir mettre un coup de boost la prochaine et dernière journée.
+
+## 30.05.2023
+
+### Documentation
+Documentation terminée et paufinée
+__Catégorie__ : Documentation
+__Durée__ : 7h30
+
+__Bilan journée__
+Dernière ligne droite, pas le temps de faire des pauses !
